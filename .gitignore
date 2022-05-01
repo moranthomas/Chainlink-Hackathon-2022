@@ -9,6 +9,11 @@ lerna-debug.log*
 
 secrets.json
 .DS_Store
+.idea/
+cypress/
+*.iml
+
+
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
