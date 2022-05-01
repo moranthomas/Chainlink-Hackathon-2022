@@ -1,0 +1,9 @@
+
+const nonce = await this.props.web3.eth.getTransactionCount("0x4C773Ed2ca6531e9Df6b9d515962d50A8b821C12");
+
+const rawTx = { "from": this.state.accounts[0], "nonce": 9, "gas": 210000 };
+
+let setReputationByAddress = await specificInstance.methods.setReputationByAddress(3, "0x4C773Ed2ca6531e9Df6b9d515962d50A8b821C12").send({
+        "from": "0x4C773Ed2ca6531e9Df6b9d515962d50A8b821C12", "nonce": 9, "gas": 210000 });
+
+specificInstance.sendTransaction({}).then(function(result) { }
