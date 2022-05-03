@@ -47,7 +47,7 @@ contract ProofOfExperiment {
         if(isProofValid(_experimentId, _experimentProof)) {
             // if rep < 5 then rep ++ and return
             if(reputationByAddress[msg.sender] < 5) {
-       x         reputationByAddress[msg.sender]++;
+                reputationByAddress[msg.sender]++;
                 emit ProofValidated(_experimentId, _experimentProof);
                 return true;
             }
